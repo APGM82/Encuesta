@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         var oculto:TextView=findViewById(R.id.textView5)
         var resumen :TextView = findViewById(R.id.txtResumen)
 
-        var migrupo1: RadioGroup=findViewById(R.id.grupo1)
+
         var radio1: RadioButton=findViewById(R.id.radioButton)
         var radio2: RadioButton=findViewById(R.id.radioButton2)
         var radio3: RadioButton=findViewById(R.id.radioButton3)
