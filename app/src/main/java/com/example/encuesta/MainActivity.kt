@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
                 nombre.setText("Anónimo")
             }
             var msg = ""
-            // We'll check which radiobutton is clicked
+            // comprobamos cual está marcado
             when{
                 radio1.isChecked-> msg=radio1.text.toString()
                 radio2.isChecked->msg=radio2.text.toString()
