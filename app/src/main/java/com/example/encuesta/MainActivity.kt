@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         var oculto:TextView=findViewById(R.id.textView5)
         var resumen :TextView = findViewById(R.id.txtResumen)
 
-        var migrupo1: RadioGroup=findViewById(R.id.grupo1)
+
         var radio1: RadioButton=findViewById(R.id.radioButton)
         var radio2: RadioButton=findViewById(R.id.radioButton2)
         var radio3: RadioButton=findViewById(R.id.radioButton3)
@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
                 nombre.setText("Anónimo")
             }
             var msg = ""
-            // We'll check which radiobutton is clicked
+            // comprobamos cual está marcado
             when{
                 radio1.isChecked-> msg=radio1.text.toString()
                 radio2.isChecked->msg=radio2.text.toString()
